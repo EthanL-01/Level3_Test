@@ -1,5 +1,6 @@
 # Collects user input for printing to the terminal
-user_input = input("Input Text: ")
+# Capitalizes user input
+user_input = input("Input Text: ").capitalize()
 
-# Prints user input
+# Prints user's capitalized input
 print(user_input)
